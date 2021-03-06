@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>netstandard2.0</TargetFrameworks>
+		<LangVersion>9.0</LangVersion>
+		<AssemblyName>Light.Bus.Common</AssemblyName>
+		<RootNamespace>Light.Bus.Common</RootNamespace>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore" Version="2.2.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Hosting" Version="2.2.7" />
+		<PackageReference Include="Microsoft.AspNetCore.Hosting.Abstractions" Version="2.2.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Routing" Version="2.2.2" />
+		<PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="2.2.0" />
+		<PackageReference Include="Microsoft.AspNetCore.WebSockets" Version="2.2.1" />
+		<PackageReference Include="Microsoft.Extensions.FileProviders.Physical" Version="3.1.11" />
+		<PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="3.1.11" />
+	</ItemGroup>
+</Project>
